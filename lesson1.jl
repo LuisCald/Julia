@@ -45,5 +45,5 @@ new_ϵ = square(100)
 plot(eachindex(ϵ), new_ϵ)
 
 # Handling vectors
-a = randn(2)
+a = randn(2) 
 a.^2  # like matlab, the . is for element-wise operations.
